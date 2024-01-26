@@ -1,0 +1,35 @@
+.shape1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 255, 43);
+    border-radius: 50%;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 138, 189);
+    border-radius: 50%;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 56, 99);
+    border-radius: 50%;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

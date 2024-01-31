@@ -68,6 +68,22 @@ module.exports = {
         let randomReview = reviews[reviewIndex];
 
         res.status(200).send(randomReview);
-    }
+    },
 
+
+    getParam: (req, res) => {
+        res.status(200).send(`${req.params.param}!`);
+    },
+
+
+    getQuery: (req, res) => {
+        const { query = {} } = req;
+        let queryGroup = Object.entries(query);
+        if (!queryGroup.length) res.send('You sent an empty query request!')
+        if (queryGroup.length === 1) {
+            res.status(200).send(`the ${queryGroup[0][1]} on the ${queryGroup[0][0]} menu now ready!`);
+        } else {
+            res.status(200).send(`Your order is ${queryGroup}`);
+        }
+    }
 }

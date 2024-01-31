@@ -1,35 +1,33 @@
-.shape1 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(180, 255, 43);
-    border-radius: 50%;
-    margin-top: 25px;
-    position: relative;
+.flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: none;
 }
 
-.shape2 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(50, 138, 189);
-    border-radius: 50%;
-    margin-top: 25px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex-container>div {
+
+    background-color: #08baf6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
 }
 
-.shape3 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(135, 56, 99);
-    border-radius: 50%;
-    margin-top: 25px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.flex-container>.shape4 {
+
+    background-color: #08e526;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
+.flex-container>.shape5 {
+
+    background-color: #f1abf0;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
 }
